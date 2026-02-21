@@ -1,2 +1,2 @@
 # xLLM
-No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI
+No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI. Includes AI agents. 
