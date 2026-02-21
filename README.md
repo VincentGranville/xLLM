@@ -1,2 +1,2 @@
 # xLLM
-No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI. Includes AI agents. 
+No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI. Includes AI agents. The links in the PDF documents are clickable in the eBook version that contains all my papers. The book, entitled <b>No-Blackbox, Secure, Efficient AI and xLLM Solutions</b>, is available <a href="https://mltechniques.com/product/no-blackbox-secure-efficient-ai-and-llm-solutions/">here</a>. For the table of contents, see <a href="https://mltblog.com/4aedKl2">here</a>.
