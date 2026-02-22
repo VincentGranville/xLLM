@@ -8,4 +8,8 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Sorted <i>n</i>-grams</b> that take into account the order of the multitokens in a sentence (the attention mechanism).</li>
   <li><b>Multitoken types</b>b>: standard, synonyms or found in contextual elements (title, category name, tag, and so on).</li>
   <li><b>Nested hashes</b> as very fast, in-memory native Python database, a better alternative to vector and graph databases.</li>
+  <li><b>Multitoken distillation</b> to eliminate redundancy in chunks displayed in the structured answer</li>
+  <li><b>Relevancy scores</b> that tell how relevant a piece of the response is relevant to the prompt.</li>
+  <li><b>Trustworthiness scores</b> that tell how reliable the source is, for a specific item in the response.</li>
+  <li><b>PMI metric</b> to generate suggested prompts related to the initial query, to reduce prompt engineering</li>
 </ul>
