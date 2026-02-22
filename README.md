@@ -20,6 +20,7 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Exact search</b>, broad search, negative keyword search, search by recency, search by category and so on (available from the UI).</li>
   <li><b>Advanced UI</b> allowing fine-tuning in real time with intuitive parameters (explainable AI), access to agents, various types of search, structured output or chat-like response, suggested prompts relevant to your query, relevancy scores and so on. A lot more than a prompt box!</li>
   <li><b>Fine-tuning</b> in real time with intuitive hyperparameter sets, each component having its own set</li>
-  <li><b>Proprietary stemmer / unstemmer</b> and related components (auto-correct, corpus-specific stopwords, building a table of acronyms and synonyms specific to a corpus, used as augmentation mechanism)</li>
-  <li><b>Evaluation metrics</b>, in particular to assess exhaustivity in the concise response while taking into account the relevancy scores</li>
+  <li><b>Proprietary stemmer / unstemmer</b> and related components (auto-correct, corpus-specific stopwords, building corpus-specific tables of acronyms and synonyms, used as augmentation mechanism)</li>
+  <li><b>Evaluation metrics</b>, in particular to assess exhaustivity in the concise response while taking into account the relevancy scores.</li>
+  <li><b>Auto-tagging</b>, auto-indexing, taxonomy augmentation to enhance the contextual framework.</li>
 </ul>
