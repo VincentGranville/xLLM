@@ -12,5 +12,5 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Relevancy scores</b> that tell how relevant a piece of the response is relevant to the prompt.</li>
   <li><b>Trustworthiness scores</b> that tell how reliable the source is, for a specific item in the response.</li>
   <li><b>PMI metric</b> to generate suggested prompts related to the initial query, to reduce prompt engineering</li>
-  <li><b>Hierarchical chunking</b>b> and <b>multi-index</b>b></li>
+  <li><b>Hierarchical chunking</b> and <b>multi-index</b></li>
 </ul>
