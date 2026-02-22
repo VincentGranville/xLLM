@@ -35,7 +35,7 @@ This new material is not in the old repository. It features our proprietary DNN 
 <li>xLLM's original <b>Deep Neural Network</b></li>
 <li>xLLM's alternative based on <b>exact interpolation in 10,000 dimensions</b>, and 96% correct predictions for next token, outside the training set. Used as alternative to PMI metrics and to suggest related keywords in the answer.</li>  
   <li><b>DNN Watermarking</b> to protect your model or data against unauthorized use, with invisible, noise- and distilliation-resistant watermarks</li>
-  <li><b>Smart distillation</b> of the parameters and/or the input data (tokens), preserving accuracy. Applicable to any DNN, including our own, as well as our DNN alternative.</li>
+  <li><b>Smart distillation</b> of the DNN parameters (the weights between connected neurons) and/or the input data (tokens), preserving accuracy. Applicable to any DNN, including our own, as well as our DNN alternative.</li>
   <li><b>Anomality Detection Agent</b> with applications in cybersecurity, used in fraud litigation.</li>
   <li><b>NoGAN Data Synthesis</b>, best and fastest on the market, with best evaluation metric.</li>
   <li><b>ECG Agent</b> with better compression rates, to find patterns in ECG (electrocardiogram) data.</li>
