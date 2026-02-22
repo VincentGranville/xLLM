@@ -1,5 +1,5 @@
 # xLLM
-<img src="https://drive.google.com/file/d/1zV9kUEKTgjYhh5jbCqEQqGQR0emvlPvu/view?usp=sharing">
+<img src="https://github.com/VincentGranville/xLLM/blob/main/xllm_logo4.png">
 No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI. Includes AI agents. The links in the PDF documents shared in this folder are clickable only in the eBook version that contains all my papers. The book, entitled <b>No-Blackbox, Secure, Efficient AI and xLLM Solutions</b>, is available <a href="https://mltechniques.com/product/no-blackbox-secure-efficient-ai-and-llm-solutions/">here</a>. For the table of contents, see <a href="https://mltblog.com/4aedKl2">here</a>.
 
 Earlier modules and component can be foundin the older xLLM repository, <a href="https://github.com/VincentGranville/Large-Language-Models">here</a>. I will add the most recent versions in this folder. It includes:
