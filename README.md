@@ -23,4 +23,5 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Proprietary stemmer / unstemmer</b> and related components (auto-correct, corpus-specific stopwords, building corpus-specific tables of acronyms and synonyms, used as augmentation mechanism)</li>
   <li><b>Evaluation metrics</b>, in particular to assess exhaustivity in the concise response while taking into account the relevancy scores.</li>
   <li><b>Auto-tagging</b>, auto-indexing, taxonomy augmentation to enhance the contextual framework.</li>
+  <li><b>Variable length embeddings</b> with alternatives to cosine simularity and dot product to measure correlation between keywords, multitokens, or documents, well suited for sparse correlation tables.</li>
 </ol>
