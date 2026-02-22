@@ -3,6 +3,8 @@ No Blackbox, secure, accurate, auditable Enterprise AI, developed by BondingAI. 
 
 Earlier modules and component can be foundin the older xLLM repository, <a href="https://github.com/VincentGranville/Large-Language-Models">here</a>. I will add the most recent versions in this folder. It includes:
 
+<h2>Base xLLM</h2>
+
 <ul>
 <li> <b>Font intelligence</b>: PDF parsing, PDF to JSON, and detection of contextual elements based on font type, relative size and color.
   <li><b>Sorted <i>n</i>-grams</b> that take into account the order of the multitokens in a sentence (the attention mechanism).</li>
