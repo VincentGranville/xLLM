@@ -31,7 +31,7 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
 This new material is not in the old repository. It features our proprietary DNN based on explainable AI, as well as an alternative with 100% exact next token predictions on the training set and 96% correct prediction on the validation set. It has its own <b>universal functions</b> with explainable parameters, sub-layers but no activation functions, and benefits from <b>benign overfitting</b>, a nice feature present in most DNNs. We use multitokens: for instance 'machine learning conference' is stored as a single multitoken as well as up to 7 sub-multitokens (combinations not in the corpus are ignored), instead of 10 tokens in standard systems. The number of multitokens is 10,000 times smaller than in generic models or specialized models with a generic core.  
 
 <ol>
-<li>xLLM's original <b>Deep Neural Network<b></b></li>
+<li>xLLM's original <b>Deep Neural Network</b></li>
 <li>xLLM's alternative based on <b>exact interpolation in 10,000 dimensions</b>, and 96% correct predictions for next token, outside the training set. Used as alternative to PMI metrics and to suggest related keywords in the answer.</li>  
   <li><b>DNN Watermarking</b>b> to protect your model or data against unauthorized use, with invisible, noise- and distilliation-resistant watermarks</li>
   <li><b>Smart distillation</b>b> of the parameters and/or the input data (tokens), preserving accuracy. Applicable to any DNN, including our own, as well as our DNN alternative.</li>
