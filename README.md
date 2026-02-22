@@ -5,7 +5,7 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
 
 <ul>
 <li> <b>Font intelligence</b>: PDF parsing, PDF to JSON, and detection of contextual elements based on font type, relative size and color.
-  <li><b>Sorterd <i>n</i>-grams</b> that take the order of the multitokens in a sentence (the attention mechanism).</li>
+  <li><b>Sorted <i>n</i>-grams</b> that take into account the order of the multitokens in a sentence (the attention mechanism).</li>
   <li><b>Multitoken types</b>b>: standard, synonyms or found in contextual elements (title, category name, tag, and so on).</li>
   <li><b>Nested hashes</b> as very fast, in-memory native Python database, a better alternative to vector and graph databases.</li>
 </ul>
