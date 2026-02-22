@@ -25,3 +25,7 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Auto-tagging</b>, auto-indexing, taxonomy augmentation to enhance the contextual framework.</li>
   <li><b>Variable length embeddings</b> with alternatives to cosine simularity and dot product to measure correlation between keywords, multitokens, or documents, well suited for sparse correlation tables.</li>
 </ol>
+
+<h2>xLLM Deep Neural Network and Better Alternatives</h2>
+
+This new material is not in the old repository. It features our proprietary DNN based on explainable AI, and an alternative with 100% exact predictions on the training set and 96% correct prediction on the validation set. It benefits from benign overfitting (a nice feature present in most DNNs). We use multitokens: for instance 'machine learning conference' is stored as a single multitoken as well as sub-multitokens, instead as 10 tokens in standard systems. The number of multitokens is 10,000 times smaller than in generic models, or specialized models with a generic core.  
