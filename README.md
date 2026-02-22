@@ -26,6 +26,6 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Variable length embeddings</b> with alternatives to cosine simularity and dot product to measure correlation between keywords, multitokens, or documents, well suited for sparse correlation tables.</li>
 </ol>
 
-<h2>xLLM Deep Neural Network and Better Alternatives</h2>
+<h2>xLLM Deep Neural Network and Related Architecture</h2>
 
-This new material is not in the old repository. It features our proprietary DNN based on explainable AI, and an alternative with 100% exact predictions on the training set and 96% correct prediction on the validation set. It benefits from benign overfitting (a nice feature present in most DNNs). We use multitokens: for instance 'machine learning conference' is stored as a single multitoken as well as sub-multitokens, instead as 10 tokens in standard systems. The number of multitokens is 10,000 times smaller than in generic models, or specialized models with a generic core.  
+This new material is not in the old repository. It features our proprietary DNN based on explainable AI, as well as an alternative with 100% exact predictions on the training set and 96% correct prediction on the validation set. It has its own <b>universal functions</b> with explainable parameters, sub-layers but no activation functions, and benefits from <b>benign overfitting</b>, a nice feature present in most DNNs. We use multitokens: for instance 'machine learning conference' is stored as a single multitoken as well as up to 7 sub-multitokens (combinations not in the corpus are ignored), instead of 10 tokens in standard systems. The number of multitokens is 10,000 times smaller than in generic models or specialized models with a generic core.  
