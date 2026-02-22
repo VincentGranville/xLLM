@@ -22,7 +22,8 @@ Earlier modules and component can be foundin the older xLLM repository, <a href=
   <li><b>Advanced UI</b> allowing fine-tuning in real time with intuitive parameters (explainable AI), access to agents, various types of search, structured output or chat-like response, suggested prompts relevant to your query, relevancy scores and so on. A lot more than a prompt box!</li>
   <li><b>Fine-tuning</b> in real time with intuitive hyperparameter sets, each component having its own set.</li>
   <li><b>Proprietary stemmer / unstemmer</b> and related components (auto-correct, corpus-specific stopwords, building corpus-specific tables of acronyms and synonyms, used as augmentation mechanism)</li>
-  <li><b>Evaluation metrics</b>, in particular to assess exhaustivity in the concise response while taking into account the relevancy scores. Includes synthetic prompt generation for testing purposes. </li>
+  <li><b>Evaluation metrics</b>, in particular to assess exhaustivity in the concise response while taking into account the relevancy scores. 
+    <li><b>Synthetic Prompt Generation</b> for testing and evaluation purposes. </li>
   <li><b>Auto-tagging</b>, auto-indexing, taxonomy augmentation to enhance the contextual framework.</li>
   <li><b>Variable length embeddings</b> with alternatives to cosine simularity and dot product to measure correlation between keywords, multitokens, or documents, well suited for sparse correlation tables.</li>
 </ol>
