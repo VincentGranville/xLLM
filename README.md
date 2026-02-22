@@ -45,3 +45,5 @@ This new material is not in the old repository. It features our proprietary DNN 
   <li><b>NoGAN Data Synthesis</b>, best and fastest on the market, with best evaluation metric.</li>
   <li><b>ECG Agent</b> with better compression rates, to find patterns in ECG (electrocardiogram) data.</li>
 </ol>
+
+<b>Contact</b>: Vincent Granville, PhD, <a mailto:vincent@bondingai.io>vincent@bondingai.io</a>. See my LinkedIn profile, <a href="https://www.linkedin.com/in/vincentg/">here</a>.
