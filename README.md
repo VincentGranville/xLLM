@@ -46,4 +46,8 @@ This new material is not in the old repository. It features our proprietary DNN 
   <li><b>ECG Agent</b> with better compression rates, to find patterns in ECG (electrocardiogram) data.</li>
 </ol>
 
-<b>Contact</b>: Vincent Granville, PhD, <a mailto:vincent@bondingai.io>vincent@bondingai.io</a>. See my LinkedIn profile, <a href="https://www.linkedin.com/in/vincentg/">here</a>.
+<h2>About the Author</h2>
+
+Vincent Granville, PhD, <a href="mailto:vincent@bondingai.io">vincent@bondingai.io</a>. See my LinkedIn profile, <a href="https://www.linkedin.com/in/vincentg/">here</a>.
+
+
