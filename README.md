@@ -48,7 +48,7 @@ This new material is not in the old repository. It features our proprietary DNN 
 
 <h2>About the Author</h2>
 
-Vincent Granville, PhD, <a href="mailto:vincent@bondingai.io">vincent@bondingai.io</a>. See my LinkedIn profile, <a href="https://www.linkedin.com/in/vincentg/">here</a>.
+Contact info: Vincent Granville, PhD, <a href="mailto:vincent@bondingai.io">vincent@bondingai.io</a>. See my LinkedIn profile, <a href="https://www.linkedin.com/in/vincentg/">here</a>.
 
 Vincent is Cofounder, CAIO and investor at BondingAI.io. Located in Seattle, author (Wiley, Elsevier), creator of open-source Python libraries / Web APIs such as xLLM and GenAI-Evaluation. Builder of high performance in-memory agentic multi-LLMs for professional users and enterprise, with real-time finetuning, self-tuning, no weight, no training, no latency, no hallucinations, no GPU. Made from scratch, leading to replicable results, leveraging explainable AI, adopted by Fortune 100. With a focus on delivering concise, exhaustive, relevant, and in-depth search results, references, and links. 
 
