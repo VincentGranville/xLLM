@@ -105,7 +105,7 @@ def set_of_polynomials(K, N, a, b, mode, f_options):
             string = xbin
             if len(string) > 60:
                 string = string[:60] + "..."
-            print("%5.3f %5.3f %9.7f %s" % (p, p1, checksum, string)) 
+            print("%5.3f %5d %5.3f %9.7f %s" % (p, k, p1, checksum, string))
         arr_prop.append(p1)
         arr_delta.append(np.sqrt(N)*np.log(N)*delta)
         arr_col.append(color)
@@ -122,11 +122,12 @@ width_in = width_px / dpi
 height_in = height_px / dpi
 random.seed(42)
 
-show_axes = True   
-show_spectrum = True
+show_axes = False   
+show_spectrum = False 
 save_spectrum = True
-show_roots = True
+show_roots = False 
 save_roots = True
+saved_frames = [] 
 
 """
 param entry: [N, K, a, b, mode, frame_ID, f_options]
@@ -196,7 +197,7 @@ for param in params:
 
         print("\n----------------\nFrame:", frame_ID, "/", nframes)
         print("\ndegree: N = %d\nnumber of ξ's: K = %d\na: %7.4f\nb: %7.4f\nmode: %s\nf_options: %s" %(N, K, a, b, mode,str(f_options))) 
-        print("\n./...   p    checksum   digits of ξ")
+        print("\n./...    k    p    checksum   digits of ξ_k") 
         if not show_axes:
             plt.style.use('dark_background')
         fig, ax = plt.subplots(figsize=(width_in, height_in))
@@ -215,6 +216,7 @@ for param in params:
         if save_roots:
             filename = 'nroots' + str(frame_ID) + '.png'
             plt.savefig(filename, bbox_inches='tight', pad_inches=0, dpi=dpi)
+            saved_frames.append(filename) 
         if show_roots:
             plt.show()
         else:
@@ -234,10 +236,6 @@ for param in params:
 #--- Produce video: slow and fast versions
 
 import moviepy.video.io.ImageSequenceClip 
-flist = []
-for frame in range(nframes):
-   fimage = "nroots" + f"{frame}" + ".png"
-   flist.append(fimage)
-clip = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(flist, fps=4)  
+clip = moviepy.video.io.ImageSequenceClip.ImageSequenceClip(saved_frames, fps=4)  
 clip.write_videofile('nroots_v1.mp4')
 
